@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    position: sticky;
+    /* font-size: 2rem; */
+} 
+
+.menu ul{
+    display: flex;
+    font-size: 1.3rem;
+    gap: 1rem;
+}
+
+.menu a:hover{ 
+    font-weight: 2rem;
+    cursor: pointer;
+    color: rgb(244, 221, 145);
+}
+
+#head{
+    font-size: 2rem;
+    padding-left: 1em;
+}
+
+#head:hover{
+    font-weight: 2rem;
+    cursor: pointer;
+    color: rgb(219, 196, 121);
+}
+.insta ul{
+    display: flex;
+    padding-right: 1em;
+    font-size: 1rem;
+}
+
+.insta ul:hover{
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: rgb(219, 196, 121);
+}
+.menu ul a{
+     color: #fff;
+     gap: 1rem;
+}
+
+.content{
+    display: flex;
+    background-color: rgb(58, 58, 59);
+    padding: 30px;
+}
+
+.photo-write{
+    flex: 1;
+    border: 2px;
+}
+
+.photo-write:first-child{
+    margin-right: 40px;
+}
+
+#photo img{
+    width: 50vw;
+    height: 50vw;
+}
+
+#write h2{ 
+    font-size: 4rem;
+    color: #fff;
+    padding: 3rem;
+    padding-top: 7rem;
+}
+
+#write p{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 1rem;
+    padding-left: 0.5rem;
+}
+
+.btn{
+    width: 200px;
+    height: 70px;
+    color: #fff;
+    background-color: rgb(164, 164, 161);
+    font-size: 1.2rem; 
+}
+
+.btn:hover{
+    font-size: 1.3rem;
+    font-weight: 1rem;
+    cursor: pointer;
+    border-radius: 0.5em;
+    background-color: rgb(152, 151, 151);
+}
+
+/* about */
+.about{
+    height: 80vh;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.about h3{
+    font-size: 3rem;
+    padding: 5rem 20rem 5rem;
+}
+
+.about p{
+    font-size: 1.3rem;
+    padding: 1rem 25rem 3rem;
+}
+
+.sadimg{
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(58, 58, 59);
+    position: relative;
+}
+
+.sadimg img{
+    height: 90vh;
+    width: 100%;
+    padding: 4rem;
+}
+
+.info{
+    position: absolute;
+    top: 220px;
+    left: 18rem;
+    right: 18rem;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.writername{
+    position: absolute;
+    bottom: 250px;
+    left: 25rem;
+    right: 20rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.venues{
+    background-color: rgb(58, 58, 59);
+    height: 85vh;
+    width: 100%;
+    color: #fff;
+}
+
+.venues h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.gridvenue{
+    height: 60vh;
+    width: 100%;
+    display: inline-grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    place-items: center;
+    font-size: 2rem;
+}
+
+.gridvenue a{
+    color: rgb(202, 200, 200);
+    font-size: 1rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.g{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.albumes{
+    display: flex;
+    background-color: #fff;
+    /* padding: 30px; */
+}
+
+.albumes img{
+    width: 50vw;
+    height: 50vw;
+    padding: 3rem;
+}
+
+.albcon:first-child{
+    margin-right: 40px;
+}
+
+#con h2{
+    font-size: 3rem;
+    padding: 12rem 6rem 2rem 0.5rem;
+}
+
+#con p{
+    font-size: 1.3rem;
+    padding: 1rem 6rem 2rem 0.5rem;
+}
+
+#con button{
+    width: 200px;
+    height: 70px;
+    color: #fff;
+    background-color: rgb(164, 164, 161);
+    font-size: 1.2rem; 
+}
+
+#con button:hover{
+    font-size: 1.3rem;
+    font-weight: 1rem;
+    cursor: pointer;
+    border-radius: 0.5em;
+    color: black;
+    background-color: rgb(152, 151, 151);
+}
+
+.discover{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(58, 58, 59);
+    color: #fff;
+    text-align: center;
+}
+
+.discover h2{
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+
+.discover p{
+    font-size: 1.3rem;
+    padding-top: 3rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.imphoto{
+     height: 100vh;
+     width: 100%;
+     background-color: rgb(58, 58, 59);
+    display: flex;
+   justify-content: space-between;
+   text-align: center;
+   color: #fff;
+   
+}
+
+.imphoto img{
+    height: 60vh;
+    width: 65vh;
+}
+
+.imphoto h3{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.imphoto p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding: 2rem;
+}
+
+.imphoto button{
+    width: 200px;
+    height: 70px;
+    color: #fff;
+    background-color: rgb(164, 164, 161);
+    font-size: 1.2rem; 
+}
+
+.imphoto button:hover{
+    font-size: 1.3rem;
+    font-weight: 1rem;
+    cursor: pointer;
+    border-radius: 0.5em;
+    color: black;
+    background-color: rgb(152, 151, 151);
+}
+
+.footer{
+    height: 25vh;
+    width: 100%;
+    text-align: center;
+}
+
+.footer .insta{
+    padding: 2rem 40rem 2rem 45rem;
+    
+}

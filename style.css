@@ -119,6 +119,7 @@ a{
     font-size: 1.3rem;
     font-weight: 1rem;
     cursor: pointer;
+    color: black;
     border-radius: 0.5em;
     background-color: rgb(152, 151, 151);
 }

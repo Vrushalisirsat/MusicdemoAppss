@@ -622,7 +622,7 @@ a {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   body {
     width: 262%;
     background-color: rgb(58, 58, 59);
